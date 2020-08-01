@@ -1,38 +1,43 @@
 .App {
   text-align: center;
+  background-color: rgb(171, 177, 179);
+}
+.custom-nav{
+  color: ghostwhite;
+  font-size: 50px;
+  margin-left: 25%;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__form{
+  padding: 15px;
+  position:fixed;
+  bottom: 0px;
+  z-index: 2;
+  background-color: rgb(201, 201, 201);
+  width: 100%;
+  margin: 0px;
+
+}
+.app__formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app__input{
+  flex:1% ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__iconButton{
+  flex:0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 65px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ 
